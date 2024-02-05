@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  testeria,
+  v2ray,
+  hsa,
   kna,
   dmn,
   mvnm,
@@ -212,33 +215,33 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "HUST Smart Assistant",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Mobile platform that aim to become a smart assistant for users with the ability to give accurate answers and perform assigned tasks. ",
     tags: [
       {
-        name: "react",
+        name: "react-native",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "chat-bot",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "material-ui",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: hsa,
+    source_code_link: "https://github.com/or2er/HUST-Smart-Ass-Frontend-TS",
   },
   {
-    name: "Job IT",
+    name: "Testeria",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application provides tools for teachers to automatically converted question files to RPG games and built on top of NextJS.",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -246,32 +249,28 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "gpt-3",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: testeria,
+    source_code_link: "https://github.com/or2er/iai-hackathon-2023-frontend",
   },
   {
-    name: "Trip Guide",
+    name: "v2ray server",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "V2Ray is a set of tools to help we build our own privacy network over internet. V2Ray is responsible for network protocols and communications. It can work alone, as well as combine with other tools.",
     tags: [
       {
-        name: "nextjs",
+        name: "v2ray",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "digital-ocean",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
+    image: v2ray,
     source_code_link: "https://github.com/",
   },
 ];

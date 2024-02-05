@@ -30,6 +30,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+// or2er project
+import testeria from './testeria.png'
+import hsa from './hust_smart_ass.png'
+import v2ray from './v2ray.png'
+
 // or2er teamates
 import dmn from "./dmn.png";
 import kna from "./kna.png";
@@ -66,6 +71,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  testeria,
+  hsa,
+  v2ray,
   dmn,
   kna,
   mvnm,
