@@ -8,7 +8,7 @@ export default function Navbar() {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <div className="grid grid-cols-12 pt-8 px-6">
+    <div className="grid grid-cols-12 pt-8 px-6 absolute">
       <div className="col-span-1">
         <Image src={or2er_logo} alt="or2er logo" width={32} height={32} />
       </div>
