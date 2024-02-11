@@ -5,6 +5,7 @@
     },
     "extends": [
         "eslint:recommended",
+        "next",
         // "plugin:@typescript-eslint/recommended", // Enable only if TS is used
         "plugin:react/recommended"
     ],
@@ -14,6 +15,7 @@
         "sourceType": "module"
     },
     "plugins": [
+        "only-warn",
         "@typescript-eslint",
         "react"
     ],
