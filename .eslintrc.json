@@ -5,7 +5,7 @@
     },
     "extends": [
         "eslint:recommended",
-        "plugin:@typescript-eslint/recommended",
+        // "plugin:@typescript-eslint/recommended", // Enable only if TS is used
         "plugin:react/recommended"
     ],
     "parser": "@typescript-eslint/parser",
@@ -20,6 +20,8 @@
     "rules": {
         "indent": ["warn", 4],
         "linebreak-style": ["off"],
-        "react/react-in-jsx-scope": ["off"]
+        "react/react-in-jsx-scope": ["off"],
+        "react/prop-types": ["warn"],
+        "no-unused-vars": ["warn"]
     }
 }
