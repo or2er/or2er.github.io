@@ -18,8 +18,11 @@ const neue = localFont({
 });
 
 const right_grotesk = localFont({
-    src: "../../public/fonts/RightGrotesk-TallBold.otf",
-    variable: "--font-right_grotesk",
+  src: [
+    { path: "../../public/fonts/RightGrotesk-TallBold.otf" },
+    { path: "../../public/fonts/RightGrotesk-TallDark.otf" },
+  ],
+  variable: "--font-right_grotesk",
 });
 
 export default function App({ Component, pageProps }) {

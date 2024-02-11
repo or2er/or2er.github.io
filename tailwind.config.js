@@ -18,6 +18,7 @@ module.exports = {
       fontFamily: {
         neue: ["var(--font-neue)"],
         right_grotesk: ["var(--font-right_grotesk)"],
+        right_grotesk_dark: ["var(--font-right_grotesk-dark)"],
       },
     },
   },
