@@ -24,7 +24,7 @@ const right_grotesk = localFont({
 
 export default function App({ Component, pageProps }) {
   return (
-    <main className={`${neue.variable} ${right_grotesk.variable}`}>
+    <main className={`${neue.variable} ${right_grotesk.variable} font-neue`}>
       <Component {...pageProps} />;
     </main>
   );
