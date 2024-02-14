@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 .text-stroke {
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  color: white; /* This will be the color inside the stroke */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: white; /* This will be the color inside the stroke */
 }
 .text-stroke-red {
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #f10000;
-  color: white; /* This will be the color inside the stroke */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #f10000;
+    color: white; /* This will be the color inside the stroke */
 }
