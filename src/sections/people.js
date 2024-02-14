@@ -1,9 +1,14 @@
 import Image from "next/image";
 
+import Character from "@/components/character";
+
 // Assets
 import decor from "@/assets/decor.svg";
 import image_decor from "@/assets/image_decor.svg";
 import pnq_dmn from "@/assets/dmn&pnq.png";
+
+const paragraph = "What is our identity and how";
+const paragraph2 = "may we help you?";
 
 export default function People() {
     return (
@@ -20,11 +25,8 @@ export default function People() {
             </div>
 
             <div className="py-16 relative">
-                <h1 className="text-[60px] md:text-[80px] xl:text-[120px] font-bold">
-                    What is our identity
-                    <br /> and how <br />
-                    may we help you?
-                </h1>
+                <Character paragraph={paragraph} />
+                <Character paragraph={paragraph2} />
                 <div className="h-16 xl:h-24 w-auto aspect-[3.5/1] 2xl:aspect-[7/1] bg-[#F10000] absolute top-[50%] left-[50%] translate-x-[-30%] lg:translate-x-[-50%] translate-y-[-52%] md:translate-y-[-60%]" />
                 <p className="text-2xl">Team or2er</p>
                 <Image
