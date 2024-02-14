@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Navbar from "@/components/navbar";
+import TechStacks from "@/sections/techstacks";
 
 // Assets
 import decor from "@/assets/decor.svg";
@@ -28,7 +29,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <main
+      <section
         className={`min-h-screen flex flex-col justify-center py-24 px-6 lg:px-24 overflow-hidden`}
       >
         <div className="text-center">
@@ -74,7 +75,8 @@ export default function Home() {
             />
           </div>
         </div>
-      </main>
+      </section>
+      <TechStacks />
     </div>
   );
 }
