@@ -1,6 +1,6 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Navbar from "@/components/navbar";
-
+import Footer from "@/components/footer";
 // Sections
 import People from "@/sections/people";
 import Journey from "@/sections/journey";
@@ -29,6 +29,7 @@ export default function Home() {
             <Navbar />
             <People />
             <Journey />
+            <Footer />
         </div>
     );
 }
