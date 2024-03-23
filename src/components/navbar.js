@@ -7,6 +7,7 @@ import { useState } from "react";
 export default function Navbar() {
     const [toggle, setToggle] = useState(false);
 
+
     return (
         <div className="grid grid-cols-12 pt-8 px-6">
             <div className="col-span-1">
