@@ -5,6 +5,8 @@ import Footer from "@/components/footer";
 import HeroSection from "@/components/heroSection";
 import People from "@/sections/people";
 import Journey from "@/sections/journey";
+import TechStacks from "@/sections/techstacks";
+
 
 function HightlightText({ text }) {
     processed_text = text.split("");
@@ -32,6 +34,7 @@ export default function Home() {
             <People />
             <Journey />
             <Footer />
+            <TechStacks />
         </div>
     );
 }

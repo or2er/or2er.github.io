@@ -1,3 +1,5 @@
+
+
 // SVGs
 import decor from "./decor.svg";
 import image_decor from "./image_decor.svg";
@@ -15,6 +17,15 @@ import p4 from "./p4.png";
 import p5 from "./p5.png";
 import p6 from "./p6.png";
 import p7 from "./p7.png";
+import mongodb from "./mongodb.png";
+import neo4j from "./neo4j.png";
+import nextjs from "./nextjs.png";
+import nodejs from "./nodejs.png";
+import pytorch from "./pytorch.png";
+import redis from "./redis.png";
+import scikit from "./scikit.png";
+import spring from "./spring.png";
+import tensorflow from "./tensorflow.png";
 
 // Gif
 import red from "./red.gif";
@@ -35,4 +46,13 @@ export {
     linkedin,
     instagram,
     facebook,
+    mongodb,
+    neo4j,
+    nextjs,
+    nodejs,
+    pytorch,
+    redis,
+    scikit,
+    spring,
+    tensorflow,
 };
